@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f2f3;
+}
+
+.font-poppins {
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* News Cards */
+
+#articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 60px;
+  grid-row-gap: 100px;
+}
+
+.article-card {
+}
+
+.article-card h1 {
+  font-size: 1.2rem;
+}
+
+.article-img {
+  width: 100%;
+  height: 100%;
+}
+
+#overall-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.article-card-top {
+  height: 200px;
+}
+
+.article-card-bottom {
+  padding: 25px;
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: white;
+  width: 100%;
+  height: 9vh;
+  position: fixed;
+  z-index: 20;
+}
+
+#nav-container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-logo span {
+  color: #e41e1b;
+}
+
+#nav-logo h3 {
+  font-size: 2.5rem;
+}
+
+#nav-items {
+  display: flex;
+  column-gap: 3rem;
+}
+
+#nav-items a {
+  color: black;
+  font-size: 1.3rem;
+}
+
+/* Header Section */
+
+#header-container {
+  background-color: white;
+  height: 25vh;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#header-container span {
+  color: #e41e1b;
+}
+
+#header-container h3 {
+  font-size: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header-container h4 {
+  letter-spacing: 0.2rem;
+  color: #b1b2b5;
+  line-height: 1.8rem;
+}
