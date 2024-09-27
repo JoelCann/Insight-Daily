@@ -98,6 +98,14 @@ body {
   row-gap: 5rem;
 }
 
+.desc a {
+  color: black;
+}
+
+.desc a :hover {
+  color: #e41e1b;
+}
+
 /* Nav Bar */
 
 nav {

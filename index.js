@@ -1,3 +1,6 @@
+
+
+
 fetch(
   "https://newsapi.org/v2/everything?q=technology&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
 )
@@ -28,9 +31,15 @@ fetch(
       const description = document.createElement("div");
       description.className = "desc";
 
+      const link = document.createElement("a");
+      link.href = article.url;
+
       const articleH1 = document.createElement("h1");
       articleH1.textContent = article.title;
-      description.appendChild(articleH1);
+
+      link.appendChild(articleH1);
+
+      description.appendChild(link);
 
       const articlePara = document.createElement("p");
       articlePara.textContent = article.content;
