@@ -1,9 +1,5 @@
-// let endpoint = `https://newsapi.org/v2/everything?&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c`
-
-// let url = ``
-
 fetch(
-  "https://newsapi.org/v2/everything?q=medicine&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
+  "https://newsapi.org/v2/everything?q=health&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
 )
   .then(function (response) {
     console.log(response.body);

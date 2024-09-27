@@ -9,7 +9,7 @@ body {
 }
 
 #overall-container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@ nav {
 }
 
 #nav-container {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -127,6 +127,10 @@ nav {
 
 #nav-logo span {
   color: #e41e1b;
+}
+
+#nav-logo a {
+  color: black;
 }
 
 #nav-logo h3 {
