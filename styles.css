@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+  overflow-x: none;
 }
 
 #overall-container {
@@ -78,6 +79,7 @@ body {
 
 .article-card {
   background-color: white;
+  /* height: 550px; */
 }
 
 .article-card h1 {
@@ -107,6 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 5rem;
+  height: 350px;
 }
 
 .desc a {
@@ -234,7 +237,7 @@ nav {
 
 footer {
   width: 100vw;
-  height: 30vh;
+  height: 150px;
   background-color: white;
 }
 
@@ -244,6 +247,12 @@ footer {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+#footer-container p {
+  text-align: center;
+  margin-top: 20px;
 }
 
 #footer-logo {
