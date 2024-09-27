@@ -210,4 +210,14 @@ nav {
   color: black;
   font-size: 1.2rem;
   margin-left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#sub-menu-bar a:hover {
+  color: #e41e1b;
+  /* font-size: 1.3rem; */
+  border-bottom: 2px solid #e41e1b;
 }
