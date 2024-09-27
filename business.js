@@ -1,5 +1,5 @@
 fetch(
-  "https://newsapi.org/v2/everything?q=business&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
+  "https://newsapi.org/v2/everything?q=business&apiKey=4bf0f77052e54736b797fb233d36b860&pageSize=30"
 )
   .then(function (response) {
     console.log(response.body);
