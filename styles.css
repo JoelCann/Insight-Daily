@@ -257,3 +257,12 @@ footer {
 
 #footer-logo {
 }
+
+#read-more {
+  color: white;
+  background-color: #e41e1b;
+  padding: 20px 30px;
+  margin-left: 370px;
+  font-size: 1.2rem;
+  border: none;
+}
