@@ -62,7 +62,7 @@ body {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 60px;
+  grid-column-gap: 25px;
   grid-row-gap: 100px;
 }
 
@@ -188,11 +188,26 @@ nav {
   row-gap: 2rem;
 }
 
+/* middle section */
+
 #middle-section {
   display: flex;
   justify-content: space-between;
 }
 
-#feed1 {
-  width: 100%;
+#sub-menu-bar {
+  width: 60%;
+  height: 50px;
+  background-color: white;
+  margin-bottom: -38px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+#sub-menu-bar a {
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 20px;
 }
