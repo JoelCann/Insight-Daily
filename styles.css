@@ -59,8 +59,9 @@ body {
 /* News Cards */
 
 #articles {
+  width: 60%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 60px;
   grid-row-gap: 100px;
 }
@@ -176,4 +177,22 @@ nav {
   letter-spacing: 0.2rem;
   color: #b1b2b5;
   line-height: 1.8rem;
+}
+
+#live-feed {
+  width: 30%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+#middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#feed1 {
+  width: 100%;
 }
