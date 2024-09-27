@@ -46,6 +46,6 @@ fetch(
       articleDiv.appendChild(articleCardTop);
       articleDiv.appendChild(articleCardBottom);
 
-      document.querySelector("#articles").appendChild(articleDiv);
+      document.querySelector("#articles-fp").appendChild(articleDiv);
     }
   });
