@@ -1,5 +1,5 @@
 fetch(
-  "https://newsapi.org/v2/everything?q=sports&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
+  "https://newsapi.org/v2/everything?q=technology&apiKey=55d7ff614b734d2fbc06e4d3748d1e3c&pageSize=30"
 )
   .then(function (response) {
     console.log(response.body);
